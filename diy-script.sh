@@ -48,7 +48,7 @@ git clone --depth=1 https://github.com/xiaorouji/openwrt-passwall2 package/luci-
 git_sparse_clone master https://github.com/vernesong/OpenClash luci-app-openclash
 
 # PasswallSmartDNS版
-git clone --depth=1  https://github.com/xiaorouji/openwrt-passwall-packages.git;main package/openwrt-passwall
+git_sparse_clone main https://github.com/xiaorouji/openwrt-passwall-packages.git;main package/openwrt-passwall
 git clone --depth=1  https://github.com/xiaorouji/openwrt-passwall.git;luci-smartdns-dev package/luci-smartdns-dev
 
 # Themes
